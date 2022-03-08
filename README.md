@@ -17,3 +17,16 @@ Quickly read in JSON with [these](json-import-examples.md) snippets in multiple 
 
 [This](HOWTO.md) file contains instructions for creating new challenges.
 
+# TESTING
+
+0. Make sure you have ruby version 3 or above in   your teminal, run this command:
+
+    ruby -v 
+
+1. Run only once in your terminal:
+
+    bundle install
+
+2. Run in your terminal every time you want to test your code:
+
+    rspec spec/
